@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap');
+
+
+subtext {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #a84d23;
+  font-size: 11pt;
+  text-decoration: None; /* no underline */
+}
+
+recipeTitle {
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18pt;
+  line-height: 120%;
+  display: block;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+}
+
+#LoginCard {
+  width: 400px; 
+  height: 700px; 
+  border-radius:0;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  margin: 50px
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+#RecipeCardLink {
+  margin: 0px 0px 20px 20px;
+}
+
+RecipeCard {
+  display: block;
+}
+
+RecipeCard:hover {
+  box-shadow: 6px 6px 0px #ffb800;
+  top: -6px;
+  left: -6px;
+}
+
+#bottomBar {
+  bottom: 10px;
+  position: absolute;
+  padding: 0px;
+  width: 268px;
+}
+
+#bottomBarLeft, #bottomBarCenter, #bottomBarRight {
+  text-align: center;
+}
+
+#Logo {
+  font-family: "Pacifico";
+  color:#a84d23;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#loginBlurb {
+  font-family: 'Frank Ruhl Libre';
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+Form.Label {
+  font-family: inherit;
+  font-style: normal;
+  font-size: 14px;
+}
+
+#label {
+  font-family: 'Frank Ruhl Libre';
+  color: #7B7B7B;
+}
+
+#username, #email, #password{
+  width: 300px; 
+  border-radius: 0; 
+  border: 0px; 
+  border-bottom: 1px solid #7B7B7B;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 50px;
+  font-family: 'Frank Ruhl Libre';
+}
+
+#username:focus, #email:focus, #password:focus{
+  box-shadow: none;
+}
+
+Button {
+  font-family : inherit;
+  font-size: 1em;
+}
+
+
+#mainButton{
+  border-radius: 2px; 
+  background-color: #a84d23;
+  font-family: "Frank Ruhl Libre";
+  font-size: 20px;
+  height: 40px;
+  width: 165px;
+  align-self: center;
+  margin-bottom: 50px;
+  border: 0;
+}
+
+recipeTitleOTD{
+  width: 600px;
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30pt;
+  line-height: 120%;
+  display: block;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+#bottomBarOTD {
+  /* margin-top:50px;
+  /* position: absolute; */
+  /* width:640; */
+  width: 640px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+  left: 0;
+  margin: auto;
+}
+
+#linkOTD {
+  text-decoration: none;
+  color: #A84D23;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+#linkOTD:hover {
+  text-decoration: underline;
+}
+
+RecipeOTD {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 24px #FFFCF3, inset 0px 0px 0px 26px #ffb800;
+  margin: 50px;
+}
+
+#LandingPage {
+  background: linear-gradient(to right, #9B7400 65%, white 65% 50%);
+}
+
+#svg {
+  margin: 5px;
+}
+
+#modal .modal-content {
+  border-radius: 0;
+}
+
+#searchBar {
+  border-color: #A84D23;
+  font-family: 'Frank Ruhl Libre';
+  border-radius: 0;
+  width: 400px;
+  height: 40px;
+
+}
+
+#searchBar:hover, #searchBar:focus {
+  box-shadow: 4px 4px 0px #ffb800;
+}
+#saveBtn {
+  background: none;
+  border: none;
+  transition: all 50ms ease-in-out;
+}
+
+#saveBtn:hover {
+  background-color: #ffb800;
+  transition: all 400ms ease-in-out;
+}
