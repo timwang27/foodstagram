@@ -35,7 +35,7 @@ Get foodstagram up and running locally with these simple steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/timwang27/foodstagram.git
    ```
 2. Install react-scripts (root directory)
    ```sh
