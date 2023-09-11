@@ -16,7 +16,6 @@
 * [![Node.js][Node.js]][Node.js-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![MongoDB][MongoDB]][MongoDB-url]
-<br>
 
 
 <!-- GETTING STARTED -->
@@ -49,9 +48,6 @@ Get foodstagram up and running locally with these simple steps:
    ```js
    npm start
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
